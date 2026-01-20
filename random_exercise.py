@@ -11,7 +11,7 @@ cardio_exercises = ["Cycling", "Rowing", "Elliptical", "Treadmill"]
 
 st.title("Workout Randomizer")
 
-day = st.selectbox("Choose workout day:", ["push", "pull", "legs"])
+day = st.selectbox("Choose workout day:", ["push", "pull", "legs", "cardio"])
 
 if st.button("Generate Workout"):
     if day == "push":
