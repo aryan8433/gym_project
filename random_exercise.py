@@ -3,7 +3,7 @@ import random
 
 chest_exercises = ["Pec Deck", "Bench Press", "Incline Bench Press"]
 tricep_exercises = ["Tricep Pressdown", "Overhead Extensions", "Tricep Kickback", "Dips"]
-back_exercises = ["Pull Ups", "T Bar Row", "Lat Pull Down"]
+back_exercises = ["Pull Ups", "T Bar Row", "Lat Pull Down", "Isolateral Rows"]
 bicep_exercises = ["Hammer Curls", "Preacher Curls", "Bayesian Cable curls", "Bicep Curls", "Inclined Dumbell Curl"]
 leg_exercises = ["Leg Pressdown", "Hamstring Curls", "Leg Extensions", "Calf Raises"]
 shoulder_exercises = ["Machine Shoulder Press", "Inclined Dumbell Y Raise", "Upright Row", "Cable Lateral Raise"]
