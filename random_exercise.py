@@ -11,7 +11,7 @@ cardio_exercises = ["Cycling", "Rowing", "Elliptical", "Treadmill"]
 
 st.title("Workout Randomizer")
 
-day = st.selectbox("Choose workout day:", ["push", "pull", "legs", "cardio"])
+day = st.selectbox("Choose workout day:", ["push", "pull", "legs and shoulder", "cardio"])
 
 if st.button("Generate Workout"):
     if day == "push":
@@ -20,7 +20,7 @@ if st.button("Generate Workout"):
     elif day == "pull":
         st.write("Back:", random.sample(back_exercises, 2))
         st.write("Biceps:", random.sample(bicep_exercises, 2))
-    elif day == "legs":
+    elif day == "legs and shoulder":
         st.write("Shoulders:", random.sample(shoulder_exercises, 2))
         st.write("Legs:", random.sample(leg_exercises, 2))
     elif day == "cardio": 
